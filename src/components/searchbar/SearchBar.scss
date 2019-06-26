@@ -1,0 +1,39 @@
+.SearchBar-root{
+   margin-top: 3.7px;
+}
+
+.SearchBar-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: fixed;
+    left: 598px;
+    z-index: 0;
+    
+    .SearchBar{
+        width: 575px;
+        height: 30px;   
+    }
+    
+    .Search-Btn{
+        width: 65px;        
+        background: none;  
+        background-color: buttonface;       
+    }
+}
+
+
+.keyboard{
+    position : relative;
+    z-index : 1;
+    width: 19px;
+    height: 12px;
+    top : 8px;
+    left: 270px;
+    .searchbar-wrap-keyboard{
+     
+    
+    }
+}
+

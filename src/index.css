@@ -1,4 +1,5 @@
 body {
+ 
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -10,4 +11,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* 이걸 absolute로 줘야 헤더에서 fix되고, 메인뷰 이미지 병합현상 막을 수 있음. */
+#root{
+  position : absolute;
 }

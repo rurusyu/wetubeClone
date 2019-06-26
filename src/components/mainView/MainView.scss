@@ -1,0 +1,13 @@
+$bordercol : 1px solid blue;
+
+.mainView-root{
+    width : 1282px;
+    height: 719px;
+    margin-left: 100px;
+    // border: $bordercol;
+    margin-right: 23px;
+    .main-video-item{
+        width: 100%;
+        height: 100%;
+    }
+}

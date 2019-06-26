@@ -1,0 +1,58 @@
+$background : white;
+
+.root-middle-view{
+    margin-left: 100px;
+    margin-right: 23px;
+    border-bottom: 1px solid #efefea;
+
+    .wrap-profile-channelName-Btn{
+        display: flex;
+        justify-content: flex-start;
+        // border: 1px solid purple;
+
+        .MiddleView-ChannelName{
+            margin-left : 17px;
+            padding-top : 11px;
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 16px;
+            color: #0d0d0d;
+            font-family: Roboto, Arial, sans-serif;
+            font-style: normal;
+        }
+
+        .MiddleView-CreatedDate{
+            margin-left : 17px;
+            font-size: 13px;
+            color: rgba(17,17,17,0.6);
+            font-family: Roboto, Arial, sans-serif;
+            font-style: normal;
+        }
+    }
+
+    .explanation{
+        margin-left: 63px;
+
+        .explanation-inputText-detail{
+            width: 320px;
+        }
+
+        .explanation-inputText-short{
+            overflow: hidden;
+            width: 320px;
+            height: 72px;
+        }
+
+        .explanation-textAreaBtn{
+            background: none;
+            border: none;
+            font-size: 13px;
+            font-style: normal;
+            line-height: 21px;
+            font-family: Roboto, Arial, sans-serif;
+            color : rgba(17, 17, 17, 0.6);
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+    }
+}

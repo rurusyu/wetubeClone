@@ -1,0 +1,20 @@
+.root-like-dislike{   
+    // border : 1px solid blue;        
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: 400;
+    font-style: normal;
+    color: #909090;
+    margin-left : 230px;
+
+    .like, .dislike, .like-dislike-share-video, .like-dislike-save, .like-dislike-options, .dislikeCount{
+        padding-top : 3px;       
+        margin-left : 30px;
+    } 
+    
+    .likeCount, .dislikeCount, .like-dislike-share-video-title, .like-dislike-save-title {
+        margin-left : 3px;
+    }
+}

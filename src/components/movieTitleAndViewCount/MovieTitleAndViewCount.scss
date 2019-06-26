@@ -1,0 +1,30 @@
+.root-MovieTitleAndViewCount{
+    width: 91.3%;
+    // border : 1px solid red;
+    margin-top : 15px;
+    margin-left: 100px;
+    margin-bottom : 15px;
+
+    .MovieTitle{    
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        color: #0d0d0d;
+        font-style: normal;
+    }
+    .ViewCount{
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        color: #606060;
+        font-style: normal;
+    }
+
+    .wrap-ViewCount-like-dislike{
+        display: flex;
+        border-bottom : 1px solid #efefea;
+        .ViewCount{
+            margin-right: 600px;
+        }
+    }
+}
