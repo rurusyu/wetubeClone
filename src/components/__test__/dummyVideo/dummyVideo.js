@@ -6,10 +6,10 @@ const DummyList = () => {
         <div className="wrap-list-view">
           <iframe className ="list-video"
                   src="https://www.youtube.com/embed/f7YRn2MVYJw" 
-                  frameborder="0" 
+                  frameBorder="0" 
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                   title="This is List view"
-                  allowfullscreen></iframe>
+                  allowFullScreen></iframe>
           <div className="wrap-title-channelName">
             <div className="next-video-title">NCT랑 중국집에서 1인2메뉴 뿌셨다!</div>        
             <div className="next-video-channelName">봄날의 소년을 플레이하다</div>

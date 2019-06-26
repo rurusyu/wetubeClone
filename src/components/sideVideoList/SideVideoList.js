@@ -14,10 +14,10 @@ class SideNextVideo extends Component {
                  <div className="wrap-next-view">
                     <iframe className ="next-video"
                             src="https://www.youtube.com/embed/f7YRn2MVYJw" 
-                            frameborder="0" 
+                            frameBorder="0" 
                             title="This is next video"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen></iframe>
+                            allowFullScreen></iframe>
                     <div className="wrap-title-channelName">
                       <div className="next-video-title">NCT랑 중국집에서 1인2메뉴 뿌셨다!</div>        
                       <div className="next-video-channelName">봄날의 소년을 플레이하다</div>

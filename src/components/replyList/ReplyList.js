@@ -10,6 +10,7 @@ class ReplyList extends Component {
 
     state={
         replyList :[],
+        replyCount : 0,
         isInputClicked : false,
         inputIsNull : true,
         username : '',
@@ -34,7 +35,8 @@ class ReplyList extends Component {
         console.log("클릭된다.")
 
         const inputState = {
-            inputMessage : this.state.inputMessage
+            inputMessage : this.state.inputMessage,
+            
         }
 
         const newReplyList =[inputState,...this.state.replyList]
@@ -42,6 +44,7 @@ class ReplyList extends Component {
         this.setState({
             inputMessage : '',
             replyList : newReplyList,
+            replyCount : this.state.replyList.length+1,
         })
     }
     //Q.한글자입력할때 마다 버튼색이 바뀌죠?? ㅠㅠ
@@ -68,13 +71,12 @@ class ReplyList extends Component {
     }
 
     render(){
-        const {innerReplyText} = this.props;
-        const {isInputClicked,inputIsNull} =this.state;
+        const {isInputClicked,inputIsNull,replyCount} =this.state;
 
         return(
             <div className="root-replyList">
                 <div className="wrap-reply-count-sort">
-                    <div className="reply-list-count">{innerReplyText}</div>
+                    <div className="reply-list-count">댓글 {replyCount}개</div>
                     <div className="reply-list-sort"><FontAwesomeIcon icon={faSortAmountUp}/>&nbsp;&nbsp;정렬기준</div>
                 </div>
                 <div className="wrap-reply-profile-inputText">

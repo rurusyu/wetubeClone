@@ -11,10 +11,10 @@ class MainView extends Component {
         <div className="mainView-root">
           <iframe className="main-video-item" 
                   src="https://www.youtube.com/embed/f7YRn2MVYJw" 
-                  frameborder="0" 
+                  frameBorder="0" 
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                   title="this is main view"
-                  allowfullscreen></iframe>
+                  allowFullScreen></iframe>
         </div>
     )
   }

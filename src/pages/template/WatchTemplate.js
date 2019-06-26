@@ -41,7 +41,7 @@ class WatchTemplate extends Component {
                                 handelTextBtnClick ={this.handelTextBtnClick}
                                 pTagClassName={!this.state.isClicked ?  "explanation-inputText-short" :"explanation-inputText-detail"}
                                 />
-                    <ReplyList innerReplyText="댓글 1,108개"/>            
+                    <ReplyList />            
                 </div>
              <SideVideoList/>
             </div>
