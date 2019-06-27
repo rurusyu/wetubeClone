@@ -9,24 +9,27 @@ $background : white;
         display: flex;
         justify-content: flex-start;
         // border: 1px solid purple;
+        .wrap-MiddleView-ChannelName-createdDate{
+            margin-right : 930px;  
+            .MiddleView-ChannelName{
+                margin-left : 17px;
+                padding-top : 11px;
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 16px;
+                color: #0d0d0d;
+                font-family: Roboto, Arial, sans-serif;
+                font-style: normal;
+            }
+    
+            .MiddleView-CreatedDate{
+                margin-left : 17px;
+                font-size: 13px;
+                color: rgba(17,17,17,0.6);
+                font-family: Roboto, Arial, sans-serif;
+                font-style: normal;
+            }
 
-        .MiddleView-ChannelName{
-            margin-left : 17px;
-            padding-top : 11px;
-            font-size: 14px;
-            font-weight: bold;
-            line-height: 16px;
-            color: #0d0d0d;
-            font-family: Roboto, Arial, sans-serif;
-            font-style: normal;
-        }
-
-        .MiddleView-CreatedDate{
-            margin-left : 17px;
-            font-size: 13px;
-            color: rgba(17,17,17,0.6);
-            font-family: Roboto, Arial, sans-serif;
-            font-style: normal;
         }
     }
 

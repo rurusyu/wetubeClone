@@ -7,12 +7,13 @@ $backgroundborder : 1px solid red;
     display: flex;
     justify-content: space-between;
     opacity: 0.95;
-    margin-bottom: 25px;
     padding-right: 300px;
     position: fixed;
     box-shadow: 0 5px 7px -7px gray ;
 
     .header-wrap-right{
+        position : absolute;
+        left:1750px;
         display: flex;
         justify-content: space-between;
         padding-top : 12px;
@@ -22,7 +23,7 @@ $backgroundborder : 1px solid red;
     .header-wrap-left{
         display: flex;
         justify-content: space-around;
-        padding-top : 12px;
+        padding-top : 12px;  //로고 가운데정렬
 
         .wetube-logo{
             font-style: normal;
@@ -34,8 +35,6 @@ $backgroundborder : 1px solid red;
 }
 
 .header-wrap-left, .header-wrap-center, .header-wrap-right{
-    width : 150px;    
-   
-    
+    width : 150px;   
 }
 

@@ -7,7 +7,7 @@
     justify-content: space-between;
     margin-top: auto;
     margin-bottom: auto;
-    position: fixed;
+    position: absolute;
     left: 598px;
     z-index: 0;
     
@@ -25,15 +25,12 @@
 
 
 .keyboard{
-    position : relative;
+    position : absolute;
     z-index : 1;
     width: 19px;
     height: 12px;
-    top : 8px;
-    left: 270px;
-    .searchbar-wrap-keyboard{
-     
-    
-    }
+    top : 11px;
+    left: 1140px;
+   
 }
 

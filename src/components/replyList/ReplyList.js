@@ -32,11 +32,9 @@ class ReplyList extends Component {
     }
 
     handleAddReplyClick=(e)=>{
-        console.log("클릭된다.")
 
         const inputState = {
-            inputMessage : this.state.inputMessage,
-            
+            inputMessage : this.state.inputMessage,            
         }
 
         const newReplyList =[inputState,...this.state.replyList]
@@ -45,20 +43,20 @@ class ReplyList extends Component {
             inputMessage : '',
             replyList : newReplyList,
             replyCount : this.state.replyList.length+1,
+            isInputClicked : false,
+            inputIsNull : true,
         })
     }
-    //Q.한글자입력할때 마다 버튼색이 바뀌죠?? ㅠㅠ
-    handleChange=(e)=>{
-        console.log(e.target.value)
-        
+   
+    handleChange=(e)=>{        
         if(e.target.value.length !==0){
             this.setState({
-                inputIsNull : !this.state.inputIsNull,
+                inputIsNull : false,
                 inputMessage : e.target.value
             })
         }else{
             this.setState({
-                inputIsNull : this.state.inputIsNull,
+                inputIsNull : true,
                 inputMessage : e.target.value
             })
         }
@@ -93,7 +91,6 @@ class ReplyList extends Component {
                     <button className={!isInputClicked ? "noclick": "reply-ok-button"}
                             id={inputIsNull ? "reply-ok-button" : "reply-ok-button-color"} 
                             onClick={this.handleAddReplyClick}
-                            // style={{!this.state.inputIsNull ? "background:#C7C7C7" : "background:#045ED4"}} //<=Q.왜 안먹히죠??
                             >댓글</button>
                 </div>
                 <ul className="reply-item-list">
