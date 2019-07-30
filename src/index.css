@@ -13,7 +13,7 @@ code {
     monospace;
 }
 
-/* 이걸 absolute로 줘야 헤더에서 fix되고, 메인뷰 이미지 병합현상 막을 수 있음. */
+/*! 이걸 absolute로 줘야 헤더에서 fix되고, 메인뷰 이미지 병합현상 막을 수 있음. */
 #root{
   position : absolute;
 }
